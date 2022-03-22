@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Georama', sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+#queueContainer {
+  background-color: lightskyblue;
+  min-height: 100vh;
+  height: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow-x: scroll;
+  padding: 0rem 1rem;
+}
+
+#queueContainer .queue {
+  min-width: 220px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 1.5rem 0.5rem;
+  background-color: #bababa;
+  border-radius: 5px;
+  padding: 1rem 0.5rem;
+  -webkit-box-shadow: 2px 2px 5px #bababa;
+          box-shadow: 2px 2px 5px #bababa;
+}
+
+#queueContainer .queue .queueTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.element {
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 5px #bababa;
+          box-shadow: 2px 2px 5px #bababa;
+}
+
+.element .elementTitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.element.dragging {
+  opacity: 0.8 !important;
+}
+/*# sourceMappingURL=index.css.map */
