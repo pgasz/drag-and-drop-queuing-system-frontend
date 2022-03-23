@@ -1,0 +1,94 @@
+{
+    "queues": [
+        {
+            "id": "queue_1",
+            "title": "Kolejka nr 1",
+            "layout_order": 1,
+            "elements": [
+                {
+                    "id": "element_1",
+                    "title": "Tytuł elementu nr 1",
+                    "position": 1,
+                    "body": {
+                        "description": "Ducimus repudiandae cupiditate enim eius est praesentium ex eligendi esse, eveniet distinctio unde fugiat quibusdam nulla voluptatum aspernatur facilis, soluta, maiores recusandae perferendis. Obcaecati id culpa, pariatur possimus ea doloremque atque adipisci facilis molestias reiciendis temporibus, fuga tenetur! Ducimus repudiandae cupiditate enim eius est praesentium ex eligendi esse, eveniet distinctio unde fugiat quibusdam nulla voluptatum aspernatur facilis, soluta, maiores recusandae perferendis. Autem eos molestias, quas iusto quisquam minima ea dolorem laboriosam, hic dolores magnam voluptatibus?"
+                    }
+                },
+                {
+                    "id": "element_2",
+                    "title": "Tytuł elementu nr 2",
+                    "position": 2,
+                    "body": {
+                        "description": "Quaerat mollitia voluptate molestiae alias dolor corrupti officia nihil eos incidunt. Obcaecati id culpa, pariatur possimus ea doloremque atque adipisci facilis molestias reiciendis temporibus, fuga tenetur!"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "queue_2",
+            "title": "Kolejka nr 2",
+            "layout_order": 2,
+            "elements": [
+                {
+                    "id": "element_3",
+                    "title": "Tytuł elementu nr 3",
+                    "position": 3,
+                    "body": {
+                        "description": "Quaerat mollitia voluptate molestiae alias dolor corrupti officia nihil eos incidunt. Obcaecati id culpa, pariatur possimus ea doloremque atque adipisci facilis molestias reiciendis temporibus, fuga tenetur! Ducimus repudiandae cupiditate enim eius est praesentium ex eligendi esse, eveniet distinctio unde fugiat quibusdam nulla voluptatum aspernatur facilis, soluta, maiores recusandae perferendis. Autem eos molestias, quas iusto quisquam minima ea dolorem laboriosam, hic dolores magnam voluptatibus?"
+                    }
+                },
+                {
+                    "id": "element_4",
+                    "title": "Tytuł elementu nr 4",
+                    "position": 4,
+                    "body": {
+                        "description": "Illo ea soluta dolorem ducimus suscipit animi iste totam, in vero velit, maxime facilis veniam autem sit quae eum atque magni. Eveniet alias pariatur soluta, fuga nulla laudantium tempore quae iste dolorum minima possimus quas fugit officiis."
+                    }
+                },
+                {
+                    "id": "element_5",
+                    "title": "Tytuł elementu nr 5",
+                    "position": 5,
+                    "body": {
+                        "description": "Delectus accusamus sit, commodi velit maiores quam possimus quas nesciunt. Unde, itaque. Aperiam ratione ea dolorem accusantium. Reprehenderit est ex quia aliquam delectus deleniti esse, perferendis eveniet possimus quos consequatur porro voluptatibus praesentium omnis veritatis quas, earum autem, cum excepturi iste voluptates. "
+                    }
+                }
+            ]
+        },
+        {
+            "id": "queue_3",
+            "title": "Kolejka nr 3",
+            "layout_order": 3,
+            "elements": []
+        },
+        {
+            "id": "queue_4",
+            "title": "Kolejka nr 4",
+            "layout_order": 4,
+            "elements": [
+                {
+                    "id": "element_6",
+                    "title": "Tytuł elementu nr 6",
+                    "position": 6,
+                    "body": {
+                        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis libero ea deleniti debitis necessitatibus ipsa praesentium impedit possimus. Fuga mollitia dolorum, explicabo facilis ullam voluptate eveniet quas nemo ad non aliquid sequi obcaecati neque minus quaerat eos odio voluptatibus nam ipsa sint veritatis adipisci similique illum. Neque tempora, quod consequuntur soluta nulla quas quam atque, ab laboriosam beatae vero possimus corrupti repellat temporibus ullam."
+                    }
+                }
+            ]
+        },
+        {
+            "id": "queue_5",
+            "title": "Kolejka nr 5",
+            "layout_order": 5,
+            "elements": [
+                {
+                    "id": "element_7",
+                    "title": "Tytuł elementu nr 7",
+                    "position": 6,
+                    "body": {
+                        "description": "quod consequuntur soluta nulla quas quam atque, ab laboriosam beatae vero possimus corrupti repellat temporibus ullam."
+                    }
+                }
+            ]
+        }
+    ]
+}

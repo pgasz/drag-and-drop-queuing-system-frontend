@@ -8,27 +8,65 @@
     font-family: 'Georama', sans-serif;
     scroll-behavior: smooth;
 }
+
+html {
+    --scrollbar-width: 12px;
+    --gray-color: #aaaaaa;
+    // --gray-color: rgba(0, 0, 0, .5);
+    --scrollbar-color: rgba(0, 0, 0, 0.5);
+    --graphite-color: #222222;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-color) #ffffff;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width: 12px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-color);
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
 a {
     text-decoration: none;
 }
 
+body {
+    overflow: scroll;
+}
 #queueContainer {
-    background-color: lightskyblue;
+    background-color: white;
     min-height: 100vh;
-    height: 100%;
     max-width: 100%;
     display: flex;
     flex-direction: row;
-    overflow-x: scroll;
     padding: 0rem 1rem;
     .queue {
-        min-width: 220px;
+        min-width: 250px;
         flex: 1;
         margin: 1.5rem 0.5rem;
-        background-color: #bababa;
+        background-color: var(--gray-color);
         border-radius: 5px;
         padding: 1rem 0.5rem;
-        box-shadow: 2px 2px 5px #bababa;
+        box-shadow: 2px 2px 5px var(--gray-color);
         .queueTitle {
             width: 100%;
             text-align: center;
@@ -45,7 +83,7 @@ a {
     padding: 0.5rem 1rem;
     margin-bottom: 0.5rem;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px #bababa;
+    box-shadow: 2px 2px 5px var(--gray-color);
     .elementTitle {
         font-size: 1.2rem;
 
