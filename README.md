@@ -1,4 +1,4 @@
-#drag-drop-queuing-system-frontend
+# drag-drop-queuing-system-frontend
 This is a frontend for the queuing system which can be used for example by the receptionists. I created an interface to manage queue systems. This project is in development mode but it is  prepared for backend connection (generate from JSON)
 
 ## Features
